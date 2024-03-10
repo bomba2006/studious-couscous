@@ -14,7 +14,7 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #f5f5f5;
+            background: linear-gradient(to right, #ffd166, #fffacd);
         }
 
         .container {
@@ -33,6 +33,7 @@
         .header h1 {
             font-size: 2rem;
             margin-bottom: 0.5rem;
+            color: #503e28;
         }
 
         .header p {
@@ -53,13 +54,19 @@
             flex: 1 0 48%;
             margin: 1rem;
             padding: 1.5rem;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .festivity:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
         }
 
         .festivity .time {
             font-size: 1.2rem;
             font-weight: bold;
             margin-bottom: 1rem;
-            color: #444;
+            color: #503e28;
         }
 
         .festivity p {
@@ -89,8 +96,4 @@
             </div>
             <div class="festivity">
                 <div class="time">1:00-2:30 PM</div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="festivity">
-                <div class="time">3:00 - 4:00 PM</div>
-                <p>Lorem
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna
