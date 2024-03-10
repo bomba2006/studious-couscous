@@ -1,43 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Festival Events</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    /* Add your CSS styles here */
-    body {
-      font-family: Arial, sans-serif;
-    }
-    h1, h2 {
-      color: #333;
-    }
-    .event {
-      margin-bottom: 20px;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 10px;
-    }
-    .event h2 {
-      margin-top: 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purim Day Festivities</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .festivities {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 2rem -1rem;
+        }
+
+        .festivity {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 1 0 48%;
+            margin: 1rem;
+            padding: 1.5rem;
+        }
+
+        .festivity .time {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #444;
+        }
+
+        .festivity p {
+            font-size: 1.1rem;
+            color: #333;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .festivity {
+                flex: 1 0 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>Festival Events</h1>
-  <div class="event">
-    <h2>Event 1</h2>
-    <p>Date: [Insert date here]</p>
-    <p>Time: [Insert time here]</p>
-    <p>Location: [Insert location here]</p>
-    <p>Description: [Insert description here]</p>
-  </div>
-  <div class="event">
-    <h2>Event 2</h2>
-    <p>Date: [Insert date here]</p>
-    <p>Time: [Insert time here]</p>
-    <p>Location: [Insert location here]</p>
-    <p>Description: [Insert description here]</p>
-  </div>
-  <!-- Add more events as needed -->
-</body>
-</html>
+    <div class="container">
+        <div class="header">
+            <h1>Purim Day Festivities</h1>
+            <p>DAY 1 | March 16, 2022</p>
+        </div>
+        <div class="festivities">
+            <div class="festivity">
+                <div class="time">9:30-11:30 AM</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="festivity">
+                <div class="time">1:00-2:30 PM</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="festivity">
+                <div class="time">3:00 - 4:00 PM</div>
+                <p>Lorem
