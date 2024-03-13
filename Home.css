@@ -135,7 +135,7 @@
 }
 
  .u-section-2-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/9474867598d527de0dec14c59c46c446e754cbe5b6b92f2336423228acbcf0315561e72623801b505d478b10a87babfa10faa7fcf26fc2d6a38a55_1280.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/30631fe23b1219127560ebdb890a1bae88ce627417a218e39506f034e4aec7d2dad9a3057f622997943a09be3808580c1d9e7418fd06761c44ff2b_1280.jpg");
   background-position: 50% 50%;
 }
 
@@ -146,11 +146,11 @@
 .u-section-2-1 .u-text-1 {
   font-size: 6rem;
   font-weight: 700;
-  margin: 60px auto 0;
+  margin: 275px auto 0;
 }
 
 .u-section-2-1 .u-text-2 {
-  margin: 30px 0 0;
+  margin: 29px 0 0;
 }
 
 .u-section-2-1 .u-btn-1 {
@@ -179,7 +179,7 @@
 }
 
  .u-section-2-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/f01510d59139a03df717816815da8c7c5671eb04bb2dfa577a6918dc5484e101ea0835ef7f0372baaabf2d6aa8d71e6428cefec02ad0cae55700ec_1280.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/9474867598d527de0dec14c59c46c446e754cbe5b6b92f2336423228acbcf0315561e72623801b505d478b10a87babfa10faa7fcf26fc2d6a38a55_1280.jpg");
   background-position: 50% 50%;
 }
 
@@ -190,11 +190,11 @@
 .u-section-2-2 .u-text-1 {
   font-size: 6rem;
   font-weight: 700;
-  margin: 275px auto 0;
+  margin: 60px auto 0;
 }
 
 .u-section-2-2 .u-text-2 {
-  margin: 29px 0 0;
+  margin: 30px 0 0;
 }
 
 .u-section-2-2 .u-btn-1 {
@@ -218,6 +218,50 @@
 
 @media (max-width: 575px) {
   .u-section-2-2 .u-text-1 {
+    font-size: 3rem;
+  }
+}
+
+ .u-section-2-3 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/f01510d59139a03df717816815da8c7c5671eb04bb2dfa577a6918dc5484e101ea0835ef7f0372baaabf2d6aa8d71e6428cefec02ad0cae55700ec_1280.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2-3 .u-sheet-1 {
+  min-height: 50vw;
+}
+
+.u-section-2-3 .u-text-1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 275px auto 0;
+}
+
+.u-section-2-3 .u-text-2 {
+  margin: 29px 0 0;
+}
+
+.u-section-2-3 .u-btn-1 {
+  background-image: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 40px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2-3 .u-text-1 {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2-3 .u-text-1 {
+    font-size: 3.75rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2-3 .u-text-1 {
     font-size: 3rem;
   }
 }.u-section-3 .u-sheet-1 {
@@ -385,7 +429,7 @@
   height: 257px;
   object-position: 50% 13.69%;
   width: 257px;
-  background-image: url("https://pixabay.com/get/g46500e8b25bc4327ad43f23b75b1d43d40e30c9ee9064913205c07c6960a851a6624b95f7f7b59356cfbe44e0f212618e855edc7cc379bc24447f9c2b793d490_1280.jpg");
+  background-image: url("images/bc4327ad43f23b75b1d43d40e30c9ee9064913205c07c6960a851a6624b95f7f7b59356cfbe44e0f212618e855edc7cc379bc24447f9c2b793d490_1280.jpg");
   background-position: 50% 50%;
   transition-duration: 1s;
   box-shadow: 2px 0 0 0 rgba(0,0,0,0);
@@ -420,7 +464,7 @@
   height: 257px;
   object-position: 50% 13.69%;
   width: 257px;
-  background-image: url("https://pixabay.com/get/g22db147fbcea347d609921cfd5dc50a77e0da1a071a7ef114ba28cf1650000fb354cc8b1a31bbcb3908d80d0a1c7883f772ae0df90b823012f512fbbfddec88a_1280.jpg");
+  background-image: url("images/ea347d609921cfd5dc50a77e0da1a071a7ef114ba28cf1650000fb354cc8b1a31bbcb3908d80d0a1c7883f772ae0df90b823012f512fbbfddec88a_1280.jpg");
   background-position: 50% 50%;
   transition-duration: 1s;
   box-shadow: 2px 0 0 0 rgba(0,0,0,0);
@@ -490,7 +534,7 @@
   height: 257px;
   object-position: 50% 13.69%;
   width: 257px;
-  background-image: url("https://pixabay.com/get/g63a6bb2ba135da300ceb6bbdaff1b7de990617b6bc5c703e09c9cb64a3caf6714629738bf047a00e1015916d98e77b1ed520215e92f0f6796ce182f515426495_1280.jpg");
+  background-image: url("images/35da300ceb6bbdaff1b7de990617b6bc5c703e09c9cb64a3caf6714629738bf047a00e1015916d98e77b1ed520215e92f0f6796ce182f515426495_1280.jpg");
   background-position: 50% 50%;
   transition-duration: 1s;
   box-shadow: 2px 0 0 0 rgba(0,0,0,0);
