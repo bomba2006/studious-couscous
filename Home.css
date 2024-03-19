@@ -27,6 +27,13 @@
   margin: 0 92px 0 99px;
 }
 
+.u-section-1 .u-text-3 {
+  margin-left: 99px;
+  margin-right: 92px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
 @media (max-width: 1199px) {
    .u-section-1 {
     min-height: 647px;
@@ -50,6 +57,11 @@
     margin-top: 12px;
     margin-right: 233px;
     margin-left: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 0;
+    margin-right: 91px;
   }
 }
 
@@ -94,7 +106,6 @@
 
   .u-section-1 .u-group-1 {
     width: calc(((100% - 340px) / 2) + 340px);
-    min-height: 222px;
     margin-top: 549px;
   }
 
@@ -118,6 +129,10 @@
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
   }
 }.u-block-8f29-2 {
   position: absolute;
